@@ -7,7 +7,6 @@ import { useEagerConnect } from '../../wallet_helpers/walletListner'
 export const App = () => {
   const currentTheme = { ...getTheme(Themes.BASIC), selected: Themes.BASIC }
   useEagerConnect()
-  console.log('MORALIS_API_KEY', process.env.NODE_ENV);
   
   return (
     <ThemeProvider theme={currentTheme}>

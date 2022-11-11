@@ -34,8 +34,8 @@ export const MINT_NFTS_TEXT = 'NFTs to see them here.'
 export const APPLYING_CHANGES_TEXT = 'Applying Changes'
 export const NOT_IN_WHITELIST_TEXT = "You're Not Whitelisted!"
 export const NFTS_MINTED_TEXT = 'NFTs Minted'
-export const GREETINGS_TEXT = 'Congrats on minting your Ghostball!'
-export const GREETINGS_DESCRIPTION1 = 'Why not show off your Ghostball to your friends?'
+export const GREETINGS_TEXT = 'Congrats on minting your NFT!'
+export const GREETINGS_DESCRIPTION1 = 'Why not show off your NFT to your friends?'
 export const GREETINGS_DESCRIPTION2 =
   "Don't have enough friends? Let's change that! Join the Ghostball Discord and show us what you minted when the art reveals."
 export const WHAT_IS_WALLET = 'What Is A Wallet?'

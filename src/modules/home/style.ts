@@ -30,3 +30,15 @@ export const Main = styled.div`
     background-clip: content-box;
   }
 `
+export const WarningCntr = styled.div`
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: center;
+`
+export const TextCntr = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+`
