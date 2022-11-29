@@ -3,17 +3,18 @@ export const PUBLIC_MINT_TIME = 48 * 3600
 export const TOTAL_NFT_SUPPLY = 10000
 
 export const WHITE_LIST_MINT_TIME = 2 * 3600
-export let FETCH_NFTS_URI = 'https://deep-index.moralis.io/api/v2'
+export let MORALIS_API_URI = 'https://deep-index.moralis.io/api/v2'
 export let PROVIDER_URL = 'https://goerli.infura.io/v3/be7a0c3ba4154a8aaa4774f31a286e16'
 export let supportedChainId = 5
 export let supportedChainName = 'Goerli test network'
 export let supportedChainCurrency = 'GoerliETH'
 export let blockExplorerUrl = 'https://goerli.etherscan.io/'
+export const MORALIS_API_KEY = 'BXDDO9sEsXgEB6auSQidifutUkBtU3Exa3rwCtnfyxCMf7FFVGGh0SJR6E2mBjx9'
 
 // if (process.nv.NODE_ENV === 'production' || process.env.REACT_APP_ENV === 'STAGING') {}
 
 // export let PROVIDER_URL = 'https://mainnet.infura.io/v3/be7a0c3ba4154a8aaa4774f31a286e16'
-// export let FETCH_NFTS_URI = 'https://deep-index.moralis.io/api/v2'
+// export let MORALIS_API_URI = 'https://deep-index.moralis.io/api/v2'
 // export let supportedChainId = 1
 // export let supportedChainName = 'Ethereum Mainnet'
 // export let supportedChainCurrency = 'ETH'

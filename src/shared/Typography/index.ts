@@ -21,8 +21,8 @@ interface ITextProps {
   marginBottom?: string
 }
 
-export const Heading3 = styled.p`
-  color: ${(props: any) => props.theme.black};
+export const Heading3 = styled.p<ITextProps>`
+  color: ${(props: any) => props.fColor || props.theme.black};
   font-size: 26px;
   font-style: italic;
   line-height: 31px;
